@@ -1,12 +1,12 @@
 body {
 	background: url("../img/bg.png");
-	font-family: 'Open sans', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 }
 
 nav li {
 	float: left;
-	list-style: none;
 	margin: 0 20px;
+	list-style: none;
 }
 
 nav a:link,
@@ -18,11 +18,11 @@ nav a:visited {
 
 nav a:hover,
 nav a:active {
-	background: aqua;
+	background: teal;
 }
 
 #first a:hover {
-	background: url("../img/click.png") left no-repeat;
+	background: url("../img/click.png") no-repeat left;
 }
 
 aside h3 + img {
